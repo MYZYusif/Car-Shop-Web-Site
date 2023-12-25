@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Shop</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="menu">
+
+        <h2>Sold Car</h2>
+        <form id="carForm">
+
+            <label for="carName">Car Name:</label>
+            <input type="text" id="carName" name="carName" required>
+
+            <label for="carYear">Car Year:</label>
+            <input type="number" id="carYear" name="carYear" required>
+
+            <label for="carPrice">Price:</label>
+            <input type="number" id="carPrice" name="carPrice" required>
+
+            <label for="carImage">Car Photo (URL):</label>
+            <input type="url" id="carImage" name="carImage" required>
+
+            <button type="submit">Save</button>
+
+        </form>
+        
+
+        <input type="search" id="search" placeholder="Search">
+
+    </div>
+
+    <button id="openMenu">Add Car</button>
+
+    <div id="carsContainer"></div>
+
+    <script src=https://code.jquery.com/jquery-3.6.4.min.js></script>
+
+</body>
+<script src="./app.js"></script>
+</html>
+
+ 
